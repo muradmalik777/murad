@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './assets/scss/app.scss';
+import Sidebar from './components/Sidebar/Sidebar';
 
 const App = () => {
+
+  useEffect(() => {
+    document.title = "Murad | Portfolio"
+  })
+  
   return (
     <div className="app">
-      <div className="murad"></div>
+      <Sidebar />
     </div>
   );
 }
