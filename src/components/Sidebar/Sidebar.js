@@ -1,14 +1,22 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './sidebar.scss';
+import {Grid, Drawer, List, ListItem, ListItemIcon} from '@material-ui/core';
+import HomeIcon from '@material-ui/icons/Home';
+import {Link} from 'react-router-dom';
+
 
 const Sidebar = (props) => {
-    const [drawer, showDrawer] = useState(true)
-    const[burger, showBurger] = useState(false)
-
     return(
-        <div className="sidebar">
-
-        </div>
+        <Drawer anchor={'left'} open={true} variant={'permanent'} classes={{paper: 'sidebar', docked: 'parent'}}>
+            <List>
+                {['home', 'about', 'education', 'experience', 'projects', 'contact'].map((item, index) => 
+                    <ListItem key={index} className={'menu-item'}>
+                        <ListItemIcon><HomeIcon className={'icon'}/></ListItemIcon>
+                        <Link to={item === 'home' ? '/' : '/'+item}>{item}</Link>
+                    </ListItem>
+                )}
+            </List>
+        </Drawer>
     )
 }
 

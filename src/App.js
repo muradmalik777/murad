@@ -1,6 +1,15 @@
 import React, {useEffect} from 'react';
 import './assets/scss/app.scss';
 import Sidebar from './components/Sidebar/Sidebar';
+import MobileMenu from './components/MobileMenu/MobileMenu';
+import {Grid, Hidden} from '@material-ui/core';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Education from './pages/Education';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import About from './pages/About';
 
 const App = () => {
 
@@ -9,9 +18,30 @@ const App = () => {
   })
   
   return (
-    <div className="app">
-      <Sidebar />
-    </div>
+    <Router>
+      <Grid container className="app">
+        <Hidden smUp>
+          <Grid item xs={12}>
+              <MobileMenu />
+          </Grid>
+        </Hidden>
+        <Hidden xsDown>
+          <Grid item xs={12} sm={3} md={3} lg={3}>
+            <Sidebar />
+          </Grid>
+        </Hidden>
+        <Grid item xs={12} sm={9} md={9} lg={9}>
+          <Switch>
+            <Route exact path={'/'}> <Home /> </Route>
+            <Route path={'/about'}> <About /> </Route>
+            <Route path={'/contact'}> <Contact /> </Route>
+            <Route path={'/education'}> <Education /> </Route>
+            <Route path={'/experience'}> <Experience /> </Route>
+            <Route path={'/projects'}> <Projects /> </Route>
+          </Switch>
+        </Grid>
+      </Grid>
+    </Router>
   );
 }
 

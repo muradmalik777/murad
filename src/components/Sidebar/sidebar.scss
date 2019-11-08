@@ -1,4 +1,23 @@
 .sidebar{
-    width: 300px;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #111111 !important;
+    min-width: 25%;
+    max-width: 33.3%;
+
+    .menu-item{
+        a{
+            color: #ffffff;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-family: 'Roboto-Thin' !important;
+            text-decoration: none;
+            margin: .5rem 0;
+        }
+        .icon{
+            color: #ffffff;
+        }
+    }
 }
