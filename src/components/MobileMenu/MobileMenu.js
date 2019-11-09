@@ -1,34 +1,32 @@
 import React, {useState} from 'react';
-import './mobile-menu.scss';
-import {Drawer, List, ListItem, ListItemIcon} from '@material-ui/core';
-import HomeIcon from '@material-ui/icons/Home';
+import './menu.scss';
+import {Box, Drawer, List, ListItem} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 import ClearIcon from '@material-ui/icons/Clear';
 import MenuIcon from '@material-ui/icons/Menu';
 
 
 const MobileMenu = () => {
-    const [drawer, setDrawer] = useState(true)
+    const [drawer, setDrawer] = useState(false)
 
     const showMenu = () => {
         setDrawer(!drawer)
     }
 
     return(
-        <div className="burger">
-            <MenuIcon className="icon burger-btn" onClick={showMenu} />        
-            <Drawer anchor={'left'} onClose={showMenu} open={drawer} variant={'temporary'} classes={{paper: 'mobile-menu'}}>
-                <ClearIcon className="icon close-btn" onClick={showMenu} />
+        <Box p={2}>
+            <MenuIcon classes={{root: 'burger-btn pointer'}} onClick={showMenu} />        
+            <Drawer anchor={'left'} onClose={showMenu} open={drawer} variant={'temporary'} classes={{paper: 'menu'}}>
+                <ClearIcon classes={{root: 'close-btn pointer'}} onClick={showMenu} />
                 <List>
                     {['home', 'about', 'education', 'experience', 'projects', 'contact'].map((item, index) => 
                         <ListItem key={index} className={'menu-item'}>
-                            <ListItemIcon><HomeIcon className={'icon'}/></ListItemIcon>
-                            <Link to={item === 'home' ? '/' : '/'+item}>{item}</Link>
+                            <Link to={item === 'home' ? '/' : '/'+item} onClick={showMenu}>{item}</Link>
                         </ListItem>
                     )}
                 </List>
             </Drawer>
-        </div>
+        </Box>
     )
 }
 

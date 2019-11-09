@@ -1,10 +1,11 @@
 import React from 'react';
+import {Box} from '@material-ui/core';
 
 const Home = () => {
     return (
-        <div className={'home flex-col'}>
+        <Box className={'home'} p={2}>
             <h1>Home</h1>
-        </div>
+        </Box>
     )
 }
 

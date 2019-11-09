@@ -21,7 +21,7 @@ const App = () => {
     <Router>
       <Grid container className="app">
         <Hidden smUp>
-          <Grid item xs={12}>
+          <Grid item xs={12} p={2}>
               <MobileMenu />
           </Grid>
         </Hidden>
