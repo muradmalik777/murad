@@ -1,3 +1,70 @@
+
 .home{
-    
+    min-height: 100vh;
+    background: $home-back;
+    .murad{
+        min-width: 100px;
+        max-width: 300px;
+        min-height: 150px;
+        border-radius: 10px;
+    }
+    .info{
+        .name, .degree{
+            margin: 1rem 0;
+            color: $white;
+        }
+        .degree{
+            font-family: 'Roboto-Thin';
+        }
+        .resume-btn{
+            margin: 1rem 0;
+            border-color: $white;
+            color: $home-back;
+            background: $white;
+            padding: .5rem 2rem;
+            
+            &:hover{
+                color: $white;
+                border-color: $white;
+                background: $home-back;
+            }
+        }
+        .social-icon{
+            color: $white;
+            font-size: 28px;
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .home{
+        min-height: calc(100vh);
+        background: $home-back;
+        .murad{
+            min-width: 100px;
+            max-width: 250px;
+            min-height: 150px;
+            border-radius: 10px;
+        }
+        .info{
+            align-items: center !important;
+            .name, .degree{
+                margin: .5rem 0;
+                color: $white;
+            }
+            .name{
+                font-size: 28px !important;
+            }
+            .box{ 
+                padding-left: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .home{
+        min-height: calc(100vh - 50px);
+    }
 }

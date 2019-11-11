@@ -1,8 +1,11 @@
 import React from 'react';
+import {Grid, Button, Box} from '@material-ui/core';
 
 const Projects = () => {
     return (
-        <h1>Projects</h1>
+        <Grid container className="projects" direction="row" justify="center">
+            
+        </Grid>
     )
 }
 

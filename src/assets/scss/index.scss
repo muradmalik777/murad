@@ -1,13 +1,32 @@
 @import './fonts.scss';
-@import './app.scss';
+@import './variables.scss';
 @import './utils.scss';
+@import './home.scss';
+@import './about.scss';
+@import './projects.scss';
+@import './contact.scss';
+@import './education.scss';
+@import './experience.scss';
+
 
 * {
   box-sizing: border-box !important;
+  letter-spacing: 1.5px;
 }
 
 body {
   margin: 0;
   font-family: 'Roboto-Regular';
   color: #333333;
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto-Regular';
+    letter-spacing: 2px;
+  }
+  
+  p{
+    font-family: 'Roboto-Thin';
+    line-height: 1.8rem;
+    letter-spacing: 1.5px;
+  }
 }

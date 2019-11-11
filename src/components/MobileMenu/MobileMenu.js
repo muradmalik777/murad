@@ -14,8 +14,8 @@ const MobileMenu = () => {
     }
 
     return(
-        <Box p={2}>
-            <MenuIcon classes={{root: 'burger-btn pointer'}} onClick={showMenu} />        
+        <Box p={2} className="mobile">
+            <MenuIcon classes={{root: 'burger-btn pointer'}} onClick={showMenu} />
             <Drawer anchor={'left'} onClose={showMenu} open={drawer} variant={'temporary'} classes={{paper: 'menu'}}>
                 <ClearIcon classes={{root: 'close-btn pointer'}} onClick={showMenu} />
                 <List>

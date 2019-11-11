@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import './assets/scss/app.scss';
 import Sidebar from './components/Sidebar/Sidebar';
 import MobileMenu from './components/MobileMenu/MobileMenu';
 import {Grid, Hidden} from '@material-ui/core';
