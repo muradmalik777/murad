@@ -5,7 +5,7 @@
         .avatar{
             width: 80px;
             height: 80px;
-            margin: 0 2rem 0 0;
+            margin: 0 1rem 0 0;
         }
         .name{
             font-family: 'Roboto-Thin';
@@ -16,6 +16,26 @@
         p{
             color: $white;
             font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about{
+        .head{
+            .avatar{
+                width: 60px;
+                height: 60px;
+                margin: 0 1rem 0 0;
+            }
+            .name{
+                font-size: 18px;
+            }
+        }
+        .info{
+            p{
+                font-size: 14px;
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './menu.scss';
 import {Box, Drawer, List, ListItem} from '@material-ui/core';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import ClearIcon from '@material-ui/icons/Clear';
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -21,7 +21,7 @@ const MobileMenu = () => {
                 <List>
                     {['home', 'about', 'education', 'experience', 'projects', 'contact'].map((item, index) => 
                         <ListItem key={index} className={'menu-item'}>
-                            <Link to={item === 'home' ? '/' : '/'+item} onClick={showMenu}>{item}</Link>
+                            <NavLink exact activeClassName="active" to={item === 'home' ? '/' : '/'+item} onClick={showMenu}>{item}</NavLink>
                         </ListItem>
                     )}
                 </List>

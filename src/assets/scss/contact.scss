@@ -1,0 +1,76 @@
+.contact{
+    min-height: 100vh;
+    background: $contact-back;
+    .head{
+        .avatar{
+            width: 80px;
+            height: 80px;
+            margin: 0 1rem 0 0;
+        }
+        .name{
+            font-family: 'Roboto-Thin';
+            color: $white;
+        }
+    }
+    .info{
+        p{
+            color: $white;
+            font-size: 16px;
+            font-family: 'Roboto-Regular';
+        }
+        .email{
+            color: $white;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .social-icon{
+            color: $white;
+            font-size: 28px;
+            margin: 1rem;
+        }
+        .contact-icon{
+            margin: .5rem .5rem -.3rem 0;
+            color: $white;
+        }
+        .address{
+            .address-icon{
+                margin: 1rem .8rem 0 0;
+                color: $white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contact{
+        .head{
+            .avatar{
+                width: 60px;
+                height: 60px;
+                margin: 0 1rem 0 0;
+            }
+            .name{
+                font-size: 18px;
+            }
+        }
+        .info{
+            p{
+                font-size: 14px;
+            }
+            .address{
+                width: 62%;
+                .address-icon{
+                    margin: 1rem .8rem 0 0;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .contact{
+        min-height: calc(100vh - 60px);
+    }
+}

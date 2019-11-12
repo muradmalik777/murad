@@ -21,6 +21,7 @@
     ul{
         margin-top: 2rem;
         .menu-item{
+            margin: .5rem;
             a{
                 color: $white !important;
                 text-transform: capitalize;
@@ -28,6 +29,19 @@
                 font-family: 'Roboto-Thin' !important;
                 text-decoration: none;
                 margin: .4rem 0;
+            }
+            .active{
+                &::before{
+                    width: 100%;
+                    content: "";
+                    position: absolute;
+                    bottom: 5px;
+                    left: 1rem;
+                    width: 35%;
+                    height: 2px;
+                    background: $white;
+                    transition: all 0.35s ease-in-out;
+                }
             }
         }
     }
