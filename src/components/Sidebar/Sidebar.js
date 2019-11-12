@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import './sidebar.scss';
 import {Drawer, List, ListItem} from '@material-ui/core';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 const Sidebar = (props) => {
@@ -11,7 +11,7 @@ const Sidebar = (props) => {
                 <List>
                     {['home', 'about', 'education', 'experience', 'projects', 'contact'].map((item, index) => 
                         <ListItem key={index} className={'menu-item'}>
-                            <Link to={item === 'home' ? '/' : '/'+item}>{item}</Link>
+                            <NavLink exact activeClassName="active" to={item === 'home' ? '/' : '/'+item}>{item}</NavLink>
                         </ListItem>
                     )}
                 </List>
