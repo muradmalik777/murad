@@ -1,0 +1,78 @@
+.experience{
+    min-height: 100vh;
+    background: $experience-back;
+    .info{
+        h3{ 
+            color: $grey;
+            margin: 1rem .5rem;
+        }
+        .job{
+            .icon{
+                width: 90px;
+                height: 90px;
+                margin: 0px 1rem 0 0;
+                color: $grey;
+            }
+            .job-info{
+                .company, .position, .date{
+                    margin: .5rem;
+                    color: $grey;
+                }
+                .position{
+                    color: $white;
+                }
+            }
+        }
+        .stack{
+            .chip{
+                margin: .5rem;
+                background: $grey;
+                color: $dark-side;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .experience{
+        min-height: 100vh;
+        overflow: auto;
+        .info{
+            min-width: 0px;
+            h3{ 
+                color: $grey;
+                margin: 1rem .5rem;
+            }
+            .job{
+                .icon{
+                    width: 60px;
+                    height: 60px;
+                    margin: 0px .5rem 0 0;
+                    color: $grey;
+                }
+                .job-info{
+                    .company, .position, .date{
+                        margin: .5rem;
+                        color: $grey;
+                    }
+                    .position{
+                        color: $white;
+                        font-size: 18px;
+                    }
+                    .company{
+                        font-size: 14px;
+                    }
+                    .date{
+                        font-size: 12px;
+                    }
+                }
+            }
+            .stack{
+                .chip{
+                    margin: .5rem;
+                    background: $grey;
+                }
+            }
+        }
+    }
+}

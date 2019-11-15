@@ -1,40 +1,45 @@
 .about{
     min-height: 100vh;
     background: $about-back;
-    .head{
-        .avatar{
-            width: 80px;
-            height: 80px;
-            margin: 0 1rem 0 0;
-        }
-        .name{
-            font-family: 'Roboto-Thin';
-            color: $white;
-        }
-    }
     .info{
         p{
             color: $white;
             font-size: 16px;
         }
     }
+    .education{
+        h2,h3,h4{
+            color: $white;
+            margin: .5rem;
+            color: #888888;
+        }
+        .date{
+            font-size: 16px;
+            font-family: 'Roboto-Thin';
+        }
+    }
 }
 
 @media only screen and (max-width: 768px){
     .about{
-        .head{
-            .avatar{
-                width: 60px;
-                height: 60px;
-                margin: 0 1rem 0 0;
-            }
-            .name{
-                font-size: 18px;
-            }
-        }
         .info{
             p{
                 font-size: 14px;
+            }
+        }
+        .education{
+            min-width: 0;
+            h2,h3,h4{
+                color: $white;
+                margin: .35rem 0;
+                color: $grey;
+            }
+            .degree{
+                font-size: 18px;
+            }
+            .date{
+                font-size: 16px;
+                font-family: 'Roboto-Thin';
             }
         }
     }

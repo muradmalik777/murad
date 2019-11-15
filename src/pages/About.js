@@ -1,15 +1,12 @@
 import React from 'react';
-import {Grid, Box, Avatar} from '@material-ui/core';
-import murad from '../assets/images/murad.jpg';
+import {Grid, Box} from '@material-ui/core';
+import UserAvatar from '../components/UserAvatar/UserAvatar';
 
 const About = () => {
     return (
         <Grid container className="about" direction="row" justify="center" alignItems="center">
             <Grid item xs={12} sm={11} md={11} lg={8} container direction="row" justify="center" alignItems="center">
-                <Box className="head" maxWidth="800px" p={3} display="flex" flexDirection="row" justify="center" alignItems="center">
-                    <Avatar src={murad} className="avatar" variant="square" />
-                    <h2 className="name">Muhammad Murad Malik</h2>
-                </Box>
+                <UserAvatar />
                 <Box className="info" maxWidth="800px" p={3} display="flex" flexDirection="column" justify="center" alignItems="center">
                     <p>
                         I am a Computer Science graduate with more than two years of 
@@ -26,6 +23,10 @@ const About = () => {
                         I am hardworking, creative, responsible, collaborative and team worker. 
                         I am passionate about development and love developing websites and working with different projects.
                     </p>
+                </Box>
+                <Box p={3} className="education" minWidth="735px" maxWidth="800px" display="flex" flexDirection="column" justify="center" alignItems="flex-start">
+                    <h2 className="degree">BS Computer Science</h2>
+                    <h3 className="uni">National University of Sciences and Technology <span className="date">(June 2018)</span></h3>
                 </Box>
             </Grid>
         </Grid>

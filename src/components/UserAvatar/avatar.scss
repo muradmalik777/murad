@@ -1,0 +1,26 @@
+@import '../../assets/scss/variables.scss';
+
+.user-avatar{
+    .avatar{
+        width: 80px;
+        height: 80px;
+        margin: 0 1rem 0 0;
+    }
+    .name{
+        font-family: 'Roboto-Thin';
+        color: $white;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .user-avatar{
+        .avatar{
+            width: 60px;
+            height: 60px;
+            margin: 0 1rem 0 0;
+        }
+        .name{
+            font-size: 18px;
+        }
+    }
+}

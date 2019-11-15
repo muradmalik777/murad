@@ -5,7 +5,6 @@ import {Grid, Hidden} from '@material-ui/core';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Education from './pages/Education';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import About from './pages/About';
@@ -34,7 +33,6 @@ const App = () => {
             <Route exact path={'/'}> <Home /> </Route>
             <Route path={'/about'}> <About /> </Route>
             <Route path={'/contact'}> <Contact /> </Route>
-            <Route path={'/education'}> <Education /> </Route>
             <Route path={'/experience'}> <Experience /> </Route>
             <Route path={'/projects'}> <Projects /> </Route>
           </Switch>
