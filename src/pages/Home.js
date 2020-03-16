@@ -9,7 +9,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Home = () => {
-    
+
     const showResume = () => {
         window.location.replace('https://drive.google.com/file/d/1L-t8pJ6OGCnc3q12NtG8Hwj90Tp52cfQ/view?usp=sharing')
     }
@@ -21,7 +21,7 @@ const Home = () => {
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={5} className="info" container direction="column" justify="center" alignItems="flex-start">
                 <h2 className="name">Muhammad Murad Malik</h2>
-                <h3 className="degree">Software Engineer</h3>
+                <h3 className="degree">Software Developer</h3>
                 <h4 className="city">Islamabad, Pakistan</h4>
                 <Button onClick={showResume} variant="outlined" color="primary" size="medium" className="resume-btn">Resume</Button>
                 <Box mt={2} className="box">
