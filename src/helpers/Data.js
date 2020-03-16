@@ -1,10 +1,10 @@
 export const experience = () => {
     return [
         {
-            company: "Software Productivity Strategist",
+            company: "Latency Esports",
             position: "Frontend Developer",
-            fromDate: "Oct 2017",
-            toDate: "April 2018"
+            fromDate: "November 2019",
+            toDate: "Present"
         },
         {
             company: "HireNinja",
@@ -13,7 +13,13 @@ export const experience = () => {
             toDate: "Dec 2019"
         },
         {
-            company: "Freelance Developer",
+            company: "Software Productivity Strategist",
+            position: "Frontend Developer",
+            fromDate: "October 2017",
+            toDate: "April 2018"
+        },
+        {
+            company: "Freelancing",
             position: "Full Stack Developer",
             fromDate: "April 2016",
             toDate: "Aug 2019"
@@ -28,7 +34,7 @@ export const stack = () => {
         "NodeJS",
         "NextJS",
         "FeatherJS",
-        "HTML", 
+        "HTML",
         "Javascript",
         "CSS",
         "MongoDB",
@@ -45,6 +51,10 @@ export const stack = () => {
         "GoLang",
         "REST",
         "Sequalize",
-        "GraphQL"
+        "GraphQL",
+        "Material UI",
+        "Element UI",
+        "Ant Design",
+        "Vuetify"
     ]
 }

@@ -22,10 +22,31 @@ body {
     font-family: 'Roboto-Regular';
     letter-spacing: 2px;
   }
-  
+
   p{
-    font-family: 'Roboto-Thin';
-    line-height: 1.8rem;
+    font-family: 'Roboto-Light';
+    line-height: 1.5rem;
     letter-spacing: 1.5px;
   }
+}
+.box-title{
+  font-family: 'Roboto-Regular';
+  font-size: 28px;
+  text-transform: capitalize;
+  margin: 0;
+  width: 100% !important;
+}
+.subtitle{
+  font-family: 'Roboto-Regular';
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0;
+  width: 100% !important;
+}
+.small-title{
+  font-family: 'Roboto-Regular';
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0;
+  width: 100% !important;
 }

@@ -9,7 +9,7 @@ const Sidebar = (props) => {
         <Fragment>
             <Drawer anchor={'left'} open={true} variant={'permanent'} classes={{paper: 'sidebar', docked: 'parent'}}>
                 <List>
-                    {['home', 'about', 'experience', 'projects', 'contact'].map((item, index) => 
+                    {['home', 'about', 'experience', 'projects', 'contact'].map((item, index) =>
                         <ListItem key={index} className={'menu-item'}>
                             <NavLink exact activeClassName="active" to={item === 'home' ? '/' : '/'+item}>{item}</NavLink>
                         </ListItem>

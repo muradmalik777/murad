@@ -1,34 +1,43 @@
 .experience{
     min-height: 100vh;
-    background: $experience-back;
+    background: $white;
     .info{
-        h3{ 
-            color: $grey;
+        width: 900px;
+        h3{
+            color: $dark-side;
             margin: 1rem .5rem;
         }
         .job{
+            border: 1px solid #dddddd;
+            margin: 1rem 1rem 0 0;
+            padding: 1rem;
+            border-radius: 5px;
+            width: 400px;
             .icon{
-                width: 90px;
-                height: 90px;
+                width: 50px;
+                height: 50px;
                 margin: 0px 1rem 0 0;
                 color: $grey;
             }
             .job-info{
+                height: 100px;
                 .company, .position, .date{
-                    margin: .5rem;
                     color: $grey;
+                    margin: .15rem;
                 }
                 .position{
-                    color: $white;
+                    color: $dark-side;
                 }
             }
         }
-        .stack{
-            .chip{
-                margin: .5rem;
-                background: $grey;
-                color: $dark-side;
-            }
+    }
+    .stack{
+        width: 900px;
+        .box-title{
+            margin-bottom: 1rem;
+        }
+        .tech-stack{
+            padding: .2rem;
         }
     }
 }
@@ -39,25 +48,29 @@
         overflow: auto;
         .info{
             min-width: 0px;
-            h3{ 
+            width: 100%;
+            h3{
                 color: $grey;
                 margin: 1rem .5rem;
             }
             .job{
+                width: 100%;
+                margin: .5rem 0 0 0;
+                padding: .5rem 1rem;
+                ;
                 .icon{
-                    width: 60px;
-                    height: 60px;
+                    width: 50px;
+                    height: 50px;
                     margin: 0px .5rem 0 0;
                     color: $grey;
                 }
                 .job-info{
+                    height: 80px;
                     .company, .position, .date{
-                        margin: .5rem;
-                        color: $grey;
+                        margin: .2rem;
                     }
                     .position{
-                        color: $white;
-                        font-size: 18px;
+                        font-size: 20px;
                     }
                     .company{
                         font-size: 14px;
@@ -67,12 +80,9 @@
                     }
                 }
             }
-            .stack{
-                .chip{
-                    margin: .5rem;
-                    background: $grey;
-                }
-            }
+        }
+        .stack{
+            width: 100%;
         }
     }
 }

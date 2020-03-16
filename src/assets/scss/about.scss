@@ -1,21 +1,21 @@
 .about{
     min-height: 100vh;
-    background: $about-back;
+    background: $white;
     .info{
         p{
-            color: $white;
+            color: $dark-side;
             font-size: 16px;
         }
     }
     .education{
         h2,h3,h4{
-            color: $white;
+            color: $dark-side;
             margin: .5rem;
-            color: #888888;
+            color: $grey;
         }
         .date{
             font-size: 16px;
-            font-family: 'Roboto-Thin';
+            font-family: 'Roboto-Light';
         }
     }
 }
@@ -39,7 +39,7 @@
             }
             .date{
                 font-size: 16px;
-                font-family: 'Roboto-Thin';
+                font-family: 'Roboto-Light';
             }
         }
     }

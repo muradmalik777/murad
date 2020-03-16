@@ -1,36 +1,39 @@
 
 .home{
     min-height: 100vh;
-    background: $home-back;
+    background: $white;
     .murad{
         min-width: 100px;
         max-width: 300px;
         min-height: 150px;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     .info{
         .name, .degree, .city{
-            margin: .5rem 0;
-            color: $white;
+            margin: .3rem 0;
+            color: $dark-side;
         }
-        .degree, .city{
-            font-family: 'Roboto-Thin';
+        .degree{
+            font-family: 'Roboto-Regular';
+        }
+        .city{
+            font-family: 'Roboto-Light';
         }
         .resume-btn{
             margin: 1rem 0;
             border-color: $white;
-            color: $home-back;
-            background: $white;
+            color: $white;
+            background: $dark-side;
             padding: .5rem 1.5rem;
-            
+
             &:hover{
                 color: $white;
                 border-color: $white;
-                background: $home-back;
+                background: $dark-side;
             }
         }
         .social-icon{
-            color: $white;
+            color: $dark-side;
             font-size: 28px;
             margin-right: 1rem;
         }
@@ -44,7 +47,6 @@
 @media only screen and (max-width: 768px){
     .home{
         min-height: calc(100vh);
-        background: $home-back;
         .murad{
             min-width: 100px;
             max-width: 250px;
@@ -55,7 +57,6 @@
             align-items: center !important;
             .name, .degree, .city{
                 margin: .5rem 0;
-                color: $white;
             }
             .name{
                 font-size: 24px !important;
@@ -66,7 +67,7 @@
             .resume-btn{
                 padding: .3rem 1.5rem;
             }
-            .box{ 
+            .box{
                 padding-left: 1rem;
             }
         }

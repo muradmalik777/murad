@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     document.title = "Murad | Portfolio"
   })
-  
+
   return (
     <Router>
       <Grid container className="app">

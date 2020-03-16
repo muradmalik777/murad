@@ -22,9 +22,8 @@ const Contact = () => {
                     </Box>
                     <p><MailOutlineIcon className="contact-icon"/> <a className="email" href="mailto:muradmalik7@gmail.com">muradmalik7@gmail.com</a></p>
                     <p><MailOutlineIcon className="contact-icon"/> <a className="email" href="mailto:14bscsmmurad@seecs.edu.pk">14bscsmmurad@seecs.edu.pk</a></p>
-                    <p><MailOutlineIcon className="contact-icon"/> <a className="email" href="mailto:murad@hireninja.com">murad@hireninja.com</a></p>
                     <p><PhoneIcon className="contact-icon"/> +923035523525</p>
-                    <Box mt={2} className="box">
+                    <Box minWidth="100%" mt={2} className="box" display="flex" flexDirection="row" justifyContent="center" alignItems="center">
                         <a href="https://web.facebook.com/murad.malik1"><FacebookIcon className="social-icon" /></a>
                         <a href="https://www.instagram.com/muradmalik7/"><InstagramIcon className="social-icon" /></a>
                         <a href="https://twitter.com/murad_malik7"><TwitterIcon className="social-icon" /></a>
