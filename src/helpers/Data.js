@@ -58,3 +58,14 @@ export const stack = () => {
         "Vuetify"
     ]
 }
+
+export const projects = () => {
+    return [
+        {
+            name: "LatencyApp",
+            href:"",
+            stack: [],
+            role: ""
+        }
+    ]
+}
