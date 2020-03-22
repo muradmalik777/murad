@@ -19,9 +19,9 @@ const MobileMenu = () => {
             <Drawer anchor={'left'} onClose={showMenu} open={drawer} variant={'temporary'} classes={{paper: 'menu'}}>
                 <ClearIcon classes={{root: 'close-btn pointer'}} onClick={showMenu} />
                 <List>
-                    {['home', 'about', 'experience', 'projects', 'contact'].map((item, index) => 
+                    {['home', 'about', 'experience', 'projects', 'contact'].map((item, index) =>
                         <ListItem key={index} className={'menu-item'}>
-                            <NavLink exact activeClassName="active" to={item === 'home' ? '/' : '/'+item} onClick={showMenu}>{item}</NavLink>
+                            <NavLink exact activeClassName="active" to={item === 'home' ? '/murad/' : '/murad/'+item} onClick={showMenu}>{item}</NavLink>
                         </ListItem>
                     )}
                 </List>

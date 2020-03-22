@@ -11,7 +11,7 @@ const Sidebar = (props) => {
                 <List>
                     {['home', 'about', 'experience', 'projects', 'contact'].map((item, index) =>
                         <ListItem key={index} className={'menu-item'}>
-                            <NavLink exact activeClassName="active" to={item === 'home' ? '/' : '/'+item}>{item}</NavLink>
+                            <NavLink exact activeClassName="active" to={item === 'home' ? '/murad' : '/murad/'+item}>{item}</NavLink>
                         </ListItem>
                     )}
                 </List>

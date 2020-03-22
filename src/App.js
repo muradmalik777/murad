@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Sidebar from './components/Sidebar/Sidebar';
 import MobileMenu from './components/MobileMenu/MobileMenu';
 import {Grid, Hidden} from '@material-ui/core';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
@@ -31,11 +31,11 @@ const App = () => {
         <Grid item xs={12} sm={9} md={9} lg={9}>
           <Switch>
             <Route exact path={'/murad/'}> <Home /> </Route>
-            <Route exact path={'/'}> <Home /> </Route>
-            <Route path={'/about'}> <About /> </Route>
-            <Route path={'/contact'}> <Contact /> </Route>
-            <Route path={'/experience'}> <Experience /> </Route>
-            <Route path={'/projects'}> <Projects /> </Route>
+            <Route exact path={'/'}> <Redirect to="/murad" /> </Route>
+            <Route path={'/murad/about'}> <About /> </Route>
+            <Route path={'/murad/contact'}> <Contact /> </Route>
+            <Route path={'/murad/experience'}> <Experience /> </Route>
+            <Route path={'/murad/projects'}> <Projects /> </Route>
           </Switch>
         </Grid>
       </Grid>
