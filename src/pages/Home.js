@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Button, Box} from '@material-ui/core';
+import {Grid, Box} from '@material-ui/core';
 import murad from '../assets/images/murad.jpg';
 import stof from '../assets/images/stack-overflow.svg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';

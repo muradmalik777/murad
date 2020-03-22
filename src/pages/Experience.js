@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Grid, Box, Chip} from '@material-ui/core';
+import {Grid, Box} from '@material-ui/core';
 import {experience, stack} from '../helpers/Data';
 import WorkIcon from '@material-ui/icons/WorkOutline';
 import UserAvatar from '../components/UserAvatar/UserAvatar';

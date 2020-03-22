@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {Grid, Box} from '@material-ui/core';
 import UserAvatar from '../components/UserAvatar/UserAvatar';
-import CodeIcon from '@material-ui/icons/Code';
 import {projects} from '../helpers/Data';
 
 const Projects = () => {
