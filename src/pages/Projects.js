@@ -22,7 +22,7 @@ const Projects = () => {
                                     <span key={index} className="chip"> {item} </span>
                                 )}
                             </Box>
-                            <a className="link" target="_blank" href={item.href}>see project</a>
+                            <a className="link" target="_blank" rel="noopener noreferrer" href={item.href}>see project</a>
                         </Box>
                     )}
                 </Box>

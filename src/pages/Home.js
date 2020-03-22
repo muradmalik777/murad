@@ -19,7 +19,7 @@ const Home = () => {
                 <h2 className="name">Muhammad Murad Malik</h2>
                 <h3 className="degree">Software Developer</h3>
                 <h4 className="city">Islamabad, Pakistan</h4>
-                <a href="https://drive.google.com/open?id=1fsS2OgVfQHwFwB3fAuW9QkJSl5lkvsko" target="_blank" className="resume-btn">Resume</a>
+                <a href="https://drive.google.com/open?id=1fsS2OgVfQHwFwB3fAuW9QkJSl5lkvsko" rel="noopener noreferrer" target="_blank" className="resume-btn">Resume</a>
                 <Box mt={2} className="box">
                     <a href="https://www.linkedin.com/in/murad-malik-13731ab6/"><LinkedInIcon className="social-icon" /></a>
                     <a href="https://github.com/muradmalik777"><GitHubIcon className="social-icon" /></a>
