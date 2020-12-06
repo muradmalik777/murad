@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/murad/static/css/main.dc40ac96.chunk.css",
+    "main.js": "/murad/static/js/main.c782278f.chunk.js",
+    "main.js.map": "/murad/static/js/main.c782278f.chunk.js.map",
+    "runtime-main.js": "/murad/static/js/runtime-main.c541e917.js",
+    "runtime-main.js.map": "/murad/static/js/runtime-main.c541e917.js.map",
+    "static/js/2.2d416f51.chunk.js": "/murad/static/js/2.2d416f51.chunk.js",
+    "static/js/2.2d416f51.chunk.js.map": "/murad/static/js/2.2d416f51.chunk.js.map",
+    "index.html": "/murad/index.html",
+    "precache-manifest.90edb14d02f72340bd85db0e70b0a264.js": "/murad/precache-manifest.90edb14d02f72340bd85db0e70b0a264.js",
+    "service-worker.js": "/murad/service-worker.js",
+    "static/css/main.dc40ac96.chunk.css.map": "/murad/static/css/main.dc40ac96.chunk.css.map",
+    "static/media/index.scss": "/murad/static/media/Roboto-Thin.321de678.ttf",
+    "static/media/murad.jpg": "/murad/static/media/murad.6365705a.jpg",
+    "static/media/stack-overflow.svg": "/murad/static/media/stack-overflow.5544aa38.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c541e917.js",
+    "static/js/2.2d416f51.chunk.js",
+    "static/css/main.dc40ac96.chunk.css",
+    "static/js/main.c782278f.chunk.js"
+  ]
+}
