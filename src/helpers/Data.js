@@ -1,10 +1,16 @@
 export const experience = () => {
     return [
         {
+            company: "Zignaly",
+            position: "Full Stack Developer",
+            fromDate: "April 2020",
+            toDate: "Present"
+        },
+        {
             company: "Latency Esports",
             position: "Frontend Developer",
             fromDate: "November 2019",
-            toDate: "Present"
+            toDate: "March 2020"
         },
         {
             company: "HireNinja",
@@ -62,8 +68,16 @@ export const stack = () => {
 export const projects = () => {
     return [
         {
-            name: "LatencyApp",
-            href:"http://latencyapp.com/",
+            name: "Zignaly",
+            href:"https://zignaly.com/app/login/",
+            role: "Full Stack Developer",
+            stack: ["Html", "CSS", "Javascript", "MaterialUI", "GatsbyJS", "PHP", "MongoDB", "ReactJS", "Redux", "Redux-Thunk", "Responsive Layout"],
+            fromDate: "April 2020",
+            toDate: "Present"
+        },
+        {
+            name: "Pinging",
+            href:"https://pingingapp.com/agenda",
             role: "Frontend Developer",
             stack: ["Html", "CSS", "Javascript", "MaterialUI", "ReactJS", "Redux", "Redux-Thunk", "Sockets", "FeatherJS", "Responsive Layout"],
             fromDate: "November 2019",
@@ -84,6 +98,14 @@ export const projects = () => {
             role: "Full Stack Developer",
             fromDate: "June 2018",
             toDate: "Dec 2019"
+        },
+        {
+            name: "FoodFactory",
+            href:"https://ffoperations.com/login",
+            stack: ["Html", "CSS", "Javascript", "MaterialUI", "NodeJS", "MongoDB", "Mongoose", "ReactJS", "Redux", "Redux-Thunk",],
+            role: "Full Stack Developer",
+            fromDate: "November 2020",
+            toDate: "December 2020"
         }
     ]
 }

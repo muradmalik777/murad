@@ -1,60 +1,62 @@
-.projects{
-    min-height: 100vh;
-    background: $white;
-    .info{
-        width: 900px;
-        padding: 1rem;
+.projects {
+  min-height: 100vh;
+  background: $white;
+  .info {
+    width: 900px;
+    padding: 1rem;
 
-        .project-box{
-            border: 1px solid $lightGrey;
-            background: #f8f8f8;
-            margin: 1rem 1rem 0 0;
-            padding: 1rem;
-            border-radius: 5px;
-            width: 400px;
-            min-height: 200px;
-            position: relative;
+    .project-box {
+      border: 1px solid $lightGrey;
+      background: #f8f8f8;
+      margin: 1rem 1rem 0 0;
+      padding: 1rem;
+      border-radius: 5px;
+      width: 400px;
+      min-height: 230px;
+      position: relative;
 
-            .company, .position, .date{
-                color: $grey;
-                margin: .15rem;
-            }
-            .position{
-                color: $dark-side;
-            }
-            .date{
-                margin-bottom: .5rem;
-            }
-            .link{
-                position: absolute;
-                bottom: .5rem;
-                right: .5rem;
-                text-decoration: none;
-                color: $dark-side;
-                border-radius: 5px;
-                padding: .2rem .5rem;
-                font-size: 12px;
-                text-transform: capitalize;
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
+      .company,
+      .position,
+      .date {
+        color: $grey;
+        margin: 0.15rem;
+      }
+      .position {
+        color: $dark-side;
+      }
+      .date {
+        margin-bottom: 0.5rem;
+      }
+      .link {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        text-decoration: none;
+        color: $dark-side;
+        border-radius: 5px;
+        padding: 0.2rem 0.5rem;
+        font-size: 12px;
+        text-transform: capitalize;
+        &:hover {
+          text-decoration: underline;
         }
+      }
     }
+  }
 }
 
-@media only screen and (max-width: 768px){
-    .projects{
-        min-height: 100vh;
-        background: $white;
-        .info{
-            width: 100%;
+@media only screen and (max-width: 768px) {
+  .projects {
+    min-height: 100vh;
+    background: $white;
+    .info {
+      width: 100%;
 
-            .project-box{
-                margin: 0 0 1rem 0;
-                width: 100%;
-                min-height: 230px;
-            }
-        }
+      .project-box {
+        margin: 0 0 1rem 0;
+        width: 100%;
+        min-height: 230px;
+      }
     }
+  }
 }
