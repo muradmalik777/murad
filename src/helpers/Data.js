@@ -1,37 +1,43 @@
 export const experience = () => {
     return [
         {
+            company: "Raiinmaker",
+            position: "Full Stack Developer",
+            fromDate: "April 2021",
+            toDate: "Present",
+        },
+        {
             company: "Zignaly",
             position: "Full Stack Developer",
             fromDate: "April 2020",
-            toDate: "Present"
+            toDate: "June 2021",
         },
         {
             company: "Latency Esports",
             position: "Frontend Developer",
             fromDate: "November 2019",
-            toDate: "March 2020"
+            toDate: "March 2020",
         },
         {
             company: "HireNinja",
             position: "Full Stack Developer",
             fromDate: "June 2018",
-            toDate: "Dec 2019"
+            toDate: "Dec 2019",
         },
         {
             company: "Software Productivity Strategist",
             position: "Frontend Developer",
             fromDate: "October 2017",
-            toDate: "April 2018"
+            toDate: "April 2018",
         },
         {
             company: "Freelancing",
             position: "Full Stack Developer",
             fromDate: "April 2016",
-            toDate: "Aug 2019"
-        }
-    ]
-}
+            toDate: "Aug 2019",
+        },
+    ];
+};
 
 export const stack = () => {
     return [
@@ -39,17 +45,20 @@ export const stack = () => {
         "VueJS",
         "NodeJS",
         "NextJS",
-        "FeatherJS",
+        "GatsbyJS",
         "HTML",
         "Javascript",
         "CSS",
+        "Material UI",
+        "Element UI",
+        "Ant Design",
+        "Vuetify",
         "MongoDB",
         "Mongoose",
         "MySQL",
         "PostGreSQL",
         "PHP",
         "Laravel/Lumen",
-        "Google Cloud Platform",
         "Git",
         "Github",
         "TypeScript",
@@ -58,54 +67,122 @@ export const stack = () => {
         "REST",
         "Sequalize",
         "GraphQL",
-        "Material UI",
-        "Element UI",
-        "Ant Design",
-        "Vuetify"
-    ]
-}
+        "Web3JS",
+        "Solidity",
+        "Smart Contracts",
+        "Blockchain",
+        "Docker",
+        "AWS",
+        "Kubernetes",
+        "AWS S3",
+        "AWS EKS",
+        "AWS RDS",
+    ];
+};
 
 export const projects = () => {
     return [
         {
-            name: "Zignaly",
-            href:"https://zignaly.com/app/login/",
+            name: "Raiinmaker",
+            href: "https://app.raiinmaker.com",
             role: "Full Stack Developer",
-            stack: ["Html", "CSS", "Javascript", "MaterialUI", "GatsbyJS", "PHP", "MongoDB", "ReactJS", "Redux", "Redux-Thunk", "Responsive Layout"],
+            stack: [
+                "Typescript",
+                "RaactJS",
+                "MaterialUI",
+                "GatsbyJS",
+                "NodeJS",
+                "PostgreSQL",
+                "Redux",
+                "Redux-Thunk",
+                "Responsive Layout",
+                "GraphQL",
+                "REST API",
+                "TS.ED",
+                "Web Socket",
+                "Redis",
+                "AWS",
+                "AWS, RDS",
+                "AWS EKS",
+                "Docket",
+                "AWS S3",
+            ],
+            fromDate: "April 2022",
+            toDate: "Present",
+        },
+        {
+            name: "Zignaly",
+            href: "https://zignaly.com/app/login/",
+            role: "Full Stack Developer",
+            stack: [
+                "Html",
+                "CSS",
+                "Javascript",
+                "MaterialUI",
+                "GatsbyJS",
+                "PHP",
+                "MongoDB",
+                "ReactJS",
+                "Redux",
+                "Redux-Thunk",
+                "Responsive Layout",
+            ],
             fromDate: "April 2020",
-            toDate: "Present"
+            toDate: "Present",
         },
         {
             name: "Pinging",
-            href:"https://pingingapp.com/agenda",
+            href: "https://pingingapp.com/agenda",
             role: "Frontend Developer",
-            stack: ["Html", "CSS", "Javascript", "MaterialUI", "ReactJS", "Redux", "Redux-Thunk", "Sockets", "FeatherJS", "Responsive Layout"],
+            stack: [
+                "Html",
+                "CSS",
+                "Javascript",
+                "MaterialUI",
+                "ReactJS",
+                "Redux",
+                "Redux-Thunk",
+                "Sockets",
+                "FeatherJS",
+                "Responsive Layout",
+            ],
             fromDate: "November 2019",
-            toDate: "Present"
+            toDate: "Present",
         },
         {
             name: "Luminary",
-            href:"http://luminary.audio/",
+            href: "http://luminary.audio/",
             role: "Frontend Developer",
             stack: ["Html", "CSS", "Javascript", "ElementUI", "VueJS", "VueX", "Responsive Layout"],
             fromDate: "August 2018",
-            toDate: "April 2019"
+            toDate: "April 2019",
         },
         {
             name: "Hireninja",
-            href:"http://hireninja.com/",
+            href: "http://hireninja.com/",
             stack: ["Html", "CSS", "Javascript", "ElementUI", "VueJS", "VueX", "Responsive Layout"],
             role: "Full Stack Developer",
             fromDate: "June 2018",
-            toDate: "Dec 2019"
+            toDate: "Dec 2019",
         },
         {
             name: "FoodFactory",
-            href:"https://ffoperations.com/login",
-            stack: ["Html", "CSS", "Javascript", "MaterialUI", "NodeJS", "MongoDB", "Mongoose", "ReactJS", "Redux", "Redux-Thunk",],
+            href: "https://ffoperations.com/login",
+            stack: [
+                "Html",
+                "CSS",
+                "Javascript",
+                "MaterialUI",
+                "NodeJS",
+                "MongoDB",
+                "Mongoose",
+                "ReactJS",
+                "Redux",
+                "Redux-Thunk",
+            ],
             role: "Full Stack Developer",
             fromDate: "November 2020",
-            toDate: "December 2020"
-        }
-    ]
-}
+            toDate: "December 2020",
+        },
+    ];
+};
