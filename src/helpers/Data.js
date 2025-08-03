@@ -4,7 +4,7 @@ export const experience = () => {
             company: "Raiinmaker",
             position: "Full Stack Developer",
             fromDate: "April 2021",
-            toDate: "Present",
+            toDate: "Jan 2025",
         },
         {
             company: "Zignaly",
@@ -108,7 +108,7 @@ export const projects = () => {
                 "AWS S3",
             ],
             fromDate: "April 2022",
-            toDate: "Present",
+            toDate: "Jan 2025",
         },
         {
             name: "Zignaly",

@@ -30,7 +30,7 @@ const Home = () => {
                 <h3 className="degree">Software Developer</h3>
                 <h4 className="city">Islamabad, Pakistan</h4>
                 <a
-                    href="https://drive.google.com/file/d/1ky0qandFVh6TOH57vn56Kzd7UbG922xr/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1VAW1P--DUeOxPqzC6axstWMW0trVYmxh/view?usp=sharing"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="resume-btn"
