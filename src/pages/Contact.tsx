@@ -13,51 +13,49 @@ import HomeIcon from "@material-ui/icons/Home";
 
 const Contact: React.FC = () => {
   return (
-    <Grid container className='contact' direction='row' justify='center' alignItems='center'>
-      <Grid item xs={12} sm={11} md={11} lg={8} container direction='row' justify='center' alignItems='center'>
-        <UserAvatar />
-        <Box className='info' maxWidth='800px' p={3} display='flex' flexDirection='column' alignItems='flex-start'>
-          <Box mt={2} className='address' display='flex' flexDirection='row'>
-            <HomeIcon className='address-icon' />
-            <p>Apartment 106, Sadaf 8 JBR, Dubai, UAE</p>
-          </Box>
-          <p>
-            <MailOutlineIcon className='contact-icon' />{" "}
-            <a className='email' href='mailto:muradmalik7@gmail.com'>
-              muradmalik7@gmail.com
-            </a>
-          </p>
-          <p>
-            <MailOutlineIcon className='contact-icon' />{" "}
-            <a className='email' href='mailto:14bscsmmurad@seecs.edu.pk'>
-              14bscsmmurad@seecs.edu.pk
-            </a>
-          </p>
-          <p>
-            <PhoneIcon className='contact-icon' /> +923035523525
-          </p>
-          <Box minWidth='100%' mt={2} className='box' display='flex' flexDirection='row' justifyContent='center' alignItems='center'>
-            <a href='https://web.facebook.com/murad.malik1'>
-              <FacebookIcon className='social-icon' />
-            </a>
-            <a href='https://www.instagram.com/muradmalik7/'>
-              <InstagramIcon className='social-icon' />
-            </a>
-            <a href='https://twitter.com/murad_malik7'>
-              <TwitterIcon className='social-icon' />
-            </a>
-            <a href='https://www.linkedin.com/in/murad-malik-13731ab6/'>
-              <LinkedInIcon className='social-icon' />
-            </a>
-            <a href='https://github.com/muradmalik777'>
-              <GitHubIcon className='social-icon' />
-            </a>
-            <a href='https://stackoverflow.com/users/11982443/murad-malik'>
-              <img src={stof} className='stack-icon' alt='' />
-            </a>
-          </Box>
+    <Grid container className='contact' direction='column' justify='center' alignItems='center'>
+      <UserAvatar />
+      <Box className='info' maxWidth='800px' p={3} display='flex' flexDirection='column' alignItems='flex-start'>
+        <Box mt={2} className='address' display='flex' flexDirection='row'>
+          <HomeIcon className='address-icon' />
+          <p>Apartment 106, Sadaf 8 JBR, Dubai, UAE</p>
         </Box>
-      </Grid>
+        <p>
+          <MailOutlineIcon className='contact-icon' />{" "}
+          <a className='email' href='mailto:muradmalik7@gmail.com'>
+            muradmalik7@gmail.com
+          </a>
+        </p>
+        <p>
+          <MailOutlineIcon className='contact-icon' />{" "}
+          <a className='email' href='mailto:14bscsmmurad@seecs.edu.pk'>
+            14bscsmmurad@seecs.edu.pk
+          </a>
+        </p>
+        <p>
+          <PhoneIcon className='contact-icon' /> +923035523525
+        </p>
+        <Box minWidth='100%' mt={2} className='box' display='flex' flexDirection='row' justifyContent='center' alignItems='center'>
+          <a href='https://web.facebook.com/murad.malik1'>
+            <FacebookIcon className='social-icon' />
+          </a>
+          <a href='https://www.instagram.com/muradmalik7/'>
+            <InstagramIcon className='social-icon' />
+          </a>
+          <a href='https://twitter.com/murad_malik7'>
+            <TwitterIcon className='social-icon' />
+          </a>
+          <a href='https://www.linkedin.com/in/murad-malik-13731ab6/'>
+            <LinkedInIcon className='social-icon' />
+          </a>
+          <a href='https://github.com/muradmalik777'>
+            <GitHubIcon className='social-icon' />
+          </a>
+          <a href='https://stackoverflow.com/users/11982443/murad-malik'>
+            <img src={stof} className='stack-icon' alt='' />
+          </a>
+        </Box>
+      </Box>
     </Grid>
   );
 };
