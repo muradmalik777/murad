@@ -11,13 +11,13 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import HomeIcon from "@material-ui/icons/Home";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <Grid container className='contact' direction='row' justify='center' alignItems='center'>
       <Grid item xs={12} sm={11} md={11} lg={8} container direction='row' justify='center' alignItems='center'>
         <UserAvatar />
-        <Box className='info' maxWidth='800px' p={3} display='flex' flexDirection='column' justify='center' alignItems='flex-start'>
-          <Box mt={2} className='address' display='flex' flexDirection='row' justify='center'>
+        <Box className='info' maxWidth='800px' p={3} display='flex' flexDirection='column' alignItems='flex-start'>
+          <Box mt={2} className='address' display='flex' flexDirection='row'>
             <HomeIcon className='address-icon' />
             <p>Apartment 106, Sadaf 8 JBR, Dubai, UAE</p>
           </Box>
